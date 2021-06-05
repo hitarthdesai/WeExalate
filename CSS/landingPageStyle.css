@@ -1,0 +1,128 @@
+body
+{
+    background-color: #7EC8E3;
+}
+
+div.container
+{
+    display: flex;
+    flex-direction: row;
+}
+
+div.card
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    margin: 1vw;
+    width: 22.7vw;
+    border: 2px solid black;
+    border-radius: 2.5vw;
+}
+
+div.image
+{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 2vw 0;
+}
+
+div.image img
+{
+    width: 15vw;
+    border-radius: 7.5vw;
+}
+
+div.heading
+{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 23vw;
+}
+
+div.description
+{
+    font-family: 'Roboto';
+    font-size: 1.05vw;
+    width: 23vw;
+    padding: 1vw;
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+}
+
+div.buttons
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+div.buttons a
+{
+    text-decoration: none;
+    color: black;
+}
+
+div.buttons a:hover div.knowMore
+{
+    color: #7EC8E3;
+    background-color: black;
+}
+
+div.knowMore
+{
+    width: 21vw;
+    text-align: center;
+    font-weight: bold;
+    background-color: #7EC8E3;
+    border: 2px solid black;
+    border-radius: 5vw;
+    padding: 0.75vw 0;
+    margin-bottom: 1vw;
+}
+
+div.contactUs
+{
+    height: 4vw;
+    width: 96.8vw;
+    margin: 0 1vw;
+    margin-bottom: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: bg 3s infinite;
+}
+
+@keyframes bg
+{
+    /* 0% {background: rgba(126, 200, 227, 1);}
+    50% {background: rgba(126, 200, 227, 0.5);}
+    100% {background: rgba(126, 200, 227, 1);} */
+
+    /* 0% {background: rgba(227, 126, 153, 1);}
+    50% {background: rgba(227, 126, 153, 0.5);}
+    100% {background: rgba(227, 126, 153, 1);} */
+
+    0% {background: black;}
+    50% {background: gray;}
+    100% {background: black;}
+}
+
+div.contactUs p
+{
+    color: white;
+    font-weight: bold;
+    font-family: 'Arial';
+    text-transform: uppercase;
+    font-size: 2vw;
+}
+
+body a
+{
+    text-decoration: none;
+    color: black;
+}

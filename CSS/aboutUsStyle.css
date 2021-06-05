@@ -1,0 +1,115 @@
+div.introduction
+{
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #7EC8E3;
+}
+
+div.mainHeading
+{
+    padding: 2vw 0;
+    font-weight: bolder;
+    font-size: 3vw;
+}
+
+div.ourMission
+{
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-bottom: 2vw;
+}
+
+div.Introduction
+{
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(#7EC8E3, rgb(251, 251, 251));
+}
+
+div.bigContainer
+{
+    background-color: rgb(251, 251, 251);
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 355vh;
+}
+
+div.leftContainer, div.rightContainer
+{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+}
+
+div.container
+{
+    background: linear-gradient(rgb(251, 251, 251), #7EC8E3 80%, rgb(251, 251, 251));
+    margin: 5vh 0;
+    width: 50vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+}
+
+div.name
+{
+    width: 100%;
+    height: 6vh;
+    font-size: 1.5vw;
+    font-weight: bold;
+    text-align: center;
+    padding: 0.5vw 0;
+    background-color: transparent;
+}
+
+div.image
+{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 30vh;
+    background-color: transparent;
+}
+
+img.member
+{
+    height: 100%;
+    border-radius: 1vw;
+}
+
+div.text
+{
+    width: 100%;
+    height: 38vh;
+    background-color: transparent;
+    padding: 1vw 6vw;
+    text-align: justify;
+}
+
+div.socialMedia
+{
+    width: 100%;
+    height: 6vh;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.socialMedia img
+{
+    padding-top: 0.5vh;
+    height: 5vh;
+    margin: 0 0.5vw;
+}
+
+div.blankSpace
+{
+    height: 10vh;
+    background-color: rgb(251, 251, 251);
+}

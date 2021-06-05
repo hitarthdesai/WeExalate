@@ -1,0 +1,35 @@
+footer
+{
+    background-color: #050A30;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vw;
+}
+
+div.copyright
+{
+    color: white;
+    padding: 0 1vw;
+}
+
+div.right
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+div.social
+{
+    padding-right: calc(1vw + 17px);
+}
+
+.social img
+{
+    margin-right: 0.5vw;
+    width: 2vw;
+    height: 2vw;
+    filter: invert(100%);
+}

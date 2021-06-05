@@ -1,0 +1,37 @@
+div.flipcard
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    width: 20vw;
+    height: 100%;
+    transition: transform 2s;
+    transform-style: preserve-3d;
+}
+
+div.flipcard:hover
+{
+    transform: rotateY(180deg);
+}
+
+div.front, div.back
+{
+    position: absolute;
+    width: 20vw;
+    height: 100%;
+    -webkit-backface-visibility: hidden;/*Safari*/
+    backface-visibility: hidden;
+}
+
+div.back
+{
+    font-family: 'Roboto';
+    padding: 2vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    transform: rotateY(180deg);
+}
+

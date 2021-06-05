@@ -1,0 +1,94 @@
+header
+{
+    width: 100vw;
+    height: 5vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #050A30;
+    color: white;
+}
+
+span.companyName
+{  
+    height: 5vw;
+    text-align: left;
+    font-size: 2.5vw;
+    font-weight: bold;
+    padding: 1vw;
+}
+
+nav
+{
+    display: flex;
+    align-items: center;
+    height: 5vw;
+    padding: 1vw;
+    font-size: 1.5vw;
+}
+
+nav ul.main > li
+{
+    display: inline-block;
+}
+
+nav ul.main > li > a
+{
+    height: 5vw;
+    padding: 1.5vw;
+    color: white;
+    text-decoration: none;
+}
+
+nav ul.sub > li > a
+{
+    text-decoration: none;
+    color: white;
+    height: 5vw;
+}
+
+nav ul.main > li > a:hover
+{
+    background-color: white;
+    color: #050A30;
+}
+
+nav ul.main ul.sub
+{
+    position: absolute;
+    top: 10.95%;
+    width: 9vw;
+    font-size: 1.25vw;
+    background-color: #050A30;
+    color: white;
+    font-family: 'Roboto';
+    list-style: none;
+    text-align: center;
+}
+
+nav ul.main ul.sub > li
+{
+    padding: 0.5vw 0;
+    width: 100%;
+}
+
+nav ul.sub > li:hover
+{
+    background-color: white;
+}
+
+nav ul.sub > li > a:hover
+{
+    color: #050A30;
+}
+
+ul.sub
+{
+    visibility: hidden;
+    z-index: 1;
+}
+
+li#hoverToAppear:hover ul.sub
+{
+    visibility: visible;
+}
