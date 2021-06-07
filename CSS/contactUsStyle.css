@@ -175,7 +175,7 @@ div.title
     font-weight: bolder;
 }
 
-div.container img
+div.container div.front > img
 {
     width: 20vw;
     border-radius: 1vw;
